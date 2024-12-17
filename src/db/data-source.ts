@@ -12,5 +12,5 @@ export const AppDataSource = new DataSource({
  database: config.DB,   
  entities: [Servico],
  synchronize: true,
- logging: true,
+ logging: false,
 })
