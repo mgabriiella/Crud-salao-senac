@@ -1,19 +1,19 @@
 🚀 CRUD - Salão SENAC
 Uma aplicação simples para o gerenciamento de serviços de um salão de beleza. Com funcionalidades de Cadastro, Consulta, Atualização e Exclusão de serviços, utilizando SQL, TypeScript, TypeORM e Express.js.
 
-🛠️ Tecnologias Utilizadas
+**Tecnologias Utilizadas**
 TypeScript: Garantindo tipagem estática e maior segurança no desenvolvimento.
 Express.js: Framework minimalista para Node.js utilizado para criar a API RESTful.
 TypeORM: ORM que facilita as interações com o banco de dados.
 SQL: Banco de dados relacional (MySQL, PostgreSQL ou outro).
 
-🌟 Funcionalidades
+**Funcionalidades**
 📝 Cadastro de Serviços: Adicione novos serviços ao salão.
 🔍 Consulta de Serviços: Visualize todos os serviços cadastrados.
 ✏️ Atualização de Serviços: Modifique as informações de serviços existentes.
 ❌ Exclusão de Serviços: Remova serviços do sistema de maneira fácil.
 
-💻 Como Rodar o Projeto
+**Como Rodar o Projeto**
 Pré-requisitos
 Node.js (versão 14 ou superior)
 TypeScript (instalado via NPM)
