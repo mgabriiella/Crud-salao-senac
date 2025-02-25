@@ -15,31 +15,49 @@ SQL: Banco de dados relacional (MySQL, PostgreSQL ou outro).
 
 **Como Rodar o Projeto**
 Pré-requisitos
-Node.js (versão 14 ou superior)
-TypeScript (instalado via NPM)
-Banco de dados SQL (MySQL, PostgreSQL ou outro)
+- Node.js (versão 14 ou superior)
+- TypeScript (instalado via NPM)
+- Banco de dados SQL (MySQL, PostgreSQL ou outro)
+
 Passos para execução
-
 Clone o repositório:
+
+bash
+Copiar
+Editar
 git clone https://github.com/mgabriiella/Crud-salao-senac.git
-
 Acesse o diretório do projeto:
+
+bash
+Copiar
+Editar
 cd Crud-salao-senac
-
 Instale as dependências:
-npm install
 
+bash
+Copiar
+Editar
+npm install
 Configure o banco de dados em ormconfig.json (adapte para suas credenciais).
 
 Execute as migrações:
+
+bash
+Copiar
+Editar
 npm run typeorm migration:run
-
 Inicie o servidor:
+
+bash
+Copiar
+Editar
 npm start
-
 Acesse a API no seu navegador:
-http://localhost:3000
 
+arduino
+Copiar
+Editar
+http://localhost:3000
 📱 Responsividade
 O sistema é totalmente responsivo, garantindo uma experiência otimizada tanto para desktop quanto para smartphones.
 
