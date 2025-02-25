@@ -49,14 +49,17 @@ Uma aplicação simples para o gerenciamento de serviços de um salão de beleza
 5. **Configure o banco de dados em ormconfig.json (adapte para suas credenciais)**.
 
 6. **Execute as migrações**:
+   
    ```bash
    npm run typeorm migration:run
 
 6. **Inicie o servidor**:
+   
    ```bash
    npm start
 
 8. **Acesse a API no seu navegador**:
+   
    ```bash
     http://localhost:3000
 
