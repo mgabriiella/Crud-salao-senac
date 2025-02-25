@@ -43,24 +43,24 @@ Uma aplicação simples para o gerenciamento de serviços de um salão de beleza
    cd Crud-salao-senac
 
 3. **Instale as dependências**:
-```bash
+   ```bash
    npm install
 
-4. Configure o banco de dados em ormconfig.json (adapte para suas credenciais).
+5. **Configure o banco de dados em ormconfig.json (adapte para suas credenciais)**.
 
-5. Execute as migrações:
-```bash
+6. **Execute as migrações**:
+   ```bash
    npm run typeorm migration:run
 
-6. Inicie o servidor:
-```bash
+6. **Inicie o servidor**:
+   ```bash
    npm start
 
-7. Acesse a API no seu navegador:
-```bash
+8. **Acesse a API no seu navegador**:
+   ```bash
     http://localhost:3000
 
-Responsividade
+## Responsividade
 O sistema é totalmente responsivo, garantindo uma experiência otimizada tanto para desktop quanto para smartphones.
 
 🤝 Como Contribuir
